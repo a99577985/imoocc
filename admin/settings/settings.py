@@ -95,7 +95,7 @@ DATABASES = {
         'NAME': 'imoocc',
         'USER': 'imoocc',
         'PASSWORD': 'imoocccom',
-        'HOST': '127.0.0.1',
+        'HOST': '34.74.89.224',
         'PORT': '',
         'OPTIONS': {},
         'init_command': 'SET storage_engine=INNODB,'
@@ -159,9 +159,9 @@ LOGGING = {
 }
 
 # Mongo DB
-MONGO_HOST = '192.168.1.108'
+MONGO_HOST = '34.74.89.224'
 MONGO_PORT = '27017'
 
 # Redis Con
-REDSI_KWARGS_LPUSH = {"host":'192.168.1.108','port':6379,'db':3}
+REDSI_KWARGS_LPUSH = {"host":'34.74.89.224','port':6379,'db':3}
 REDSI_LPUSH_POOL = None
